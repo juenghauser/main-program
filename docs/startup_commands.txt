@@ -1,0 +1,26 @@
+
+
+**** REMEMBER TO START THE MySQL Service ****
+
+cd c:\Eric_Stuff\Coding\361_main\services\auth-service
+prompt CS 361 Auth Service:
+cls
+venv\Scripts\activate
+flask run --port=5001
+
+cd c:\Eric_Stuff\Coding\361_main\services\media-service
+prompt CS 361 Media Service: 
+cls
+venv\Scripts\activate
+flask run --port=5002
+
+cd c:\Eric_Stuff\Coding\361_main\services\collection-service
+prompt CS 361 Collection Service:
+cls
+venv\Scripts\activate
+flask run --port=5003
+
+cd c:\Eric_Stuff\Coding\361_main\frontend
+prompt CS 361 Frontend:
+cls
+npm run dev
